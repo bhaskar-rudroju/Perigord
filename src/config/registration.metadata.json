@@ -1,0 +1,15 @@
+{
+    "title": "Registration Form",
+    "fields": [
+        { "label": "Name", "type": "text", "name": "name", "required": true, "placeholder": "Enter your Name" },
+        { "label": "Age", "type": "number", "name": "age",  "placeholder": "Enter your age"},
+        { "label": "Subscribe", "type": "checkbox", "name": "subscribe" },
+        {
+            "label": "Gender",
+            "type": "select",
+            "name": "gender",
+            "options": ["Male", "Female", "Other"]
+        }
+    ]
+}
+
